@@ -120,15 +120,16 @@ a {
 body {
   margin: 50px 0;
   color: var(--black);
-  font: 1rem/1.3 sans-serif;
+  font: 1rem/1.3 sans-serif; 
 }
 
 .gallery {
   padding: 0 2rem;
+  background: url("https://images.pexels.com/photos/131634/pexels-photo-131634.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
 }
 
 .container {
-  margin: 1rem auto;
+  margin: 0rem auto;
 }
 
 .d-none {
@@ -139,20 +140,26 @@ body {
 /* IMAGE LIST
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .image-list {
-  margin: 3rem 1rem;
+  padding: 3rem 1rem;
 }
 
 .image-list img {
   display: block;
+  margin-left: auto;
+  margin-right: auto;
   max-width: 100%;
   height: auto;
 }
 
 .image-list li {
+  max-height: 300vh;
+}
+
+.image-list figure{
   background: var(--lightbrown);
   color: var(--darkblack);
+  padding-top: 1rem;
   background-size: fit;
-  max-height: 300vh;
 }
 
 .image-list p:first-child {
