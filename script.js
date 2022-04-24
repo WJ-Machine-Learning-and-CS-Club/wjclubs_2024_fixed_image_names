@@ -1,4 +1,3 @@
-
 const rangeInput = document.querySelector('input[type = "range"]');
 const imageList = document.querySelector(".image-list");
 const searchInput = document.querySelector('input[type="search"]');
