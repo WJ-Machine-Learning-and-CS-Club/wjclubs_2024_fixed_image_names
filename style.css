@@ -460,6 +460,12 @@ body {
   background: url("https://images.pexels.com/photos/131634/pexels-photo-131634.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
 }
 
+.gallery a {
+  background: blue;
+  color: white;
+  padding: 5px 5px 5px 5px;
+}
+
 .container {
   margin: 0rem auto;
 }
@@ -519,12 +525,15 @@ body {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 footer {
   font-size: 1rem;
-  padding: 0 1.5rem;
+  margin-top: 5vh;
+  padding-right: 3vw;
   text-align: right;
+  font: 300 1em/1.5 'Merriweather', serif;
+  color: #242424;
 }
 
 footer span {
-  color: #e31b23;
+  color: black;
 }
 
 /* MQ
