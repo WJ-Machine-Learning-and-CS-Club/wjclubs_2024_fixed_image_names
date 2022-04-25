@@ -126,7 +126,7 @@ svg {
 }
 .slide:nth-child(1) .slide__bg {
   left: 0;
-  background-image: url("https://github.com/wjclubs/wjclubs.github.io/blob/569569a1ecabe3af0b0874894c08bbfacde52e2d/img/bake1.jpeg");
+  background-image: url(img/bake1.jpeg);
 }
 .slide:nth-child(1) .slide__overlay-path {
   fill: #e99c7e;
@@ -141,7 +141,7 @@ svg {
 }
 .slide:nth-child(2) .slide__bg {
   left: -50%;
-  background-image: url("https://github.com/wjclubs/wjclubs.github.io/blob/569569a1ecabe3af0b0874894c08bbfacde52e2d/img/dance1.png");
+  background-image: url(img/dance1.png);
 }
 .slide:nth-child(2) .slide__overlay-path {
   fill: #e1ccae;
@@ -156,7 +156,7 @@ svg {
 }
 .slide:nth-child(3) .slide__bg {
   left: -100%;
-  background-image: url("https://github.com/wjclubs/wjclubs.github.io/blob/569569a1ecabe3af0b0874894c08bbfacde52e2d/img/korean3.png");
+  background-image: url(img/korean3.png);
 }
 .slide:nth-child(3) .slide__overlay-path {
   fill: #adc5cd;
@@ -171,7 +171,7 @@ svg {
 }
 .slide:nth-child(4) .slide__bg {
   left: -150%;
-  background-image: url("https://github.com/wjclubs/wjclubs.github.io/blob/569569a1ecabe3af0b0874894c08bbfacde52e2d/img/CryptographyClub.jpg");
+  background-image: url(/img/CryptographyClub.jpg);
 }
 .slide:nth-child(4) .slide__overlay-path {
   fill: #cbc6c3;
