@@ -1,4 +1,4 @@
 # Club Fair
 
-A Pen created on CodePen.io. Original URL: [https://codepen.io/fmench/pen/XWVQgmy](https://codepen.io/fmench/pen/XWVQgmy).
+A compilation of all the clubs offered at Walter Johnson High School. Please contact fedor.menchukov@mcpsmd.net if you have any questions/concerns/suggestions.
 
