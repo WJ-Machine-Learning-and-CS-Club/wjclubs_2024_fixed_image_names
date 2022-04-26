@@ -463,7 +463,7 @@ body {
 }
 
 .gallery a {
-  background: blue;
+  background: #99ccff;
   color: white;
   padding: 5px 5px 5px 5px;
 }
@@ -478,10 +478,6 @@ body {
 
 /* IMAGE LIST
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.image-list {
-  padding: 3rem 1rem;
-  margin-left: 1.1rem;
-}
 
 .image-list img {
   display: block;
@@ -496,10 +492,9 @@ body {
 }
 
 .image-list figure {
-  background: var(--lightbrown);
+  
   color: var(--darkblack);
   padding-top: 1rem;
-  background-size: fit;
 }
 
 .image-list p:first-child {
@@ -516,12 +511,9 @@ body {
 .grid-view {
   display: grid;
   grid-gap: 2rem;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 800px));
 }
 
-.grid-view figcaption {
-  padding: 1rem;
-}
 
 /* FOOTER
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -548,28 +540,22 @@ footer span {
 @media screen and (max-width: 700px) {
   .grid-view li {
     text-align: center;
-    padding: 0.5rem;
   }
 
-  .grid-view figcaption {
-    padding: 0.5rem 0 0;
-  }
+
 }
 .desc {
   display: none;
 }
-
-.grid-view li :hover img {
-  display: none;
+.grid-view li{
+  overflow: auto;
+  position: relative;
+  background: var(--lightbrown);
+  border-radius: 25px;
+  background-size: fit;
+  min-height: 100px;
 }
 
-.grid-view li :hover td {
-  display: none;
-}
-
-.grid-view li :hover .desc {
-  display: table-cell;
-}
 
 th, td {
   border-width: 5px;
@@ -579,14 +565,12 @@ th, td {
           hyphens: auto;
 }
 
-tr {
-  overflow: hidden;
-  max-height: 100px;
-}
 
 table {
-  table-layout: fixed;
+  position: absolute;
+  bottom: 0px;
   width: 100%;
+  table-layout: auto;
 }
 
 .center-block > .container {
