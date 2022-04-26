@@ -217,3 +217,18 @@ $(document).ready(function() {
   });
   
 });
+
+
+
+$('.grid-view li').on('click',function(e){
+  if($(this).find(".desc").is(":visible")){
+    //$(this).find("img").show();
+   $(this).find("td").show();
+    $(this).find(".desc").hide();
+  }
+  else if($(event.target).is("img")){
+     //$(this).find("img").hide();
+     $(this).find("td").hide();
+      $(this).find(".desc").show();
+  }
+  });
