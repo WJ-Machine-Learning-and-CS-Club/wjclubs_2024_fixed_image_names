@@ -567,8 +567,8 @@ th, td {
 
 
 table {
-  position: absolute;
-  bottom: 0px;
+/*   position: absolute;
+  bottom: 0px; */
   width: 100%;
   table-layout: auto;
 }
