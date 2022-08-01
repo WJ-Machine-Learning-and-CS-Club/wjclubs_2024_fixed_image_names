@@ -476,6 +476,8 @@ body {
   display: none;
 }
 
+
+
 /* IMAGE LIST
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
@@ -502,6 +504,22 @@ body {
 .image-list p:last-child {
   margin-top: 0.5rem;
 }
+
+/*Announcements
+-----------------------------------*/
+.announcement {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  text-align: center;
+}
+
+.announcement p{
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size: 2vw;
+}
+
 
 /* GRID VIEW
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
