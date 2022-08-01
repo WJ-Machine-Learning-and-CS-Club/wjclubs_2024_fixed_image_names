@@ -458,7 +458,7 @@ body {
 }
 
 .gallery {
-  padding: 0 2rem;
+  padding: 1rem 4rem;
   background: url("https://images.pexels.com/photos/131634/pexels-photo-131634.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
 }
 
@@ -497,10 +497,7 @@ body {
   padding-top: 1rem;
 }
 
-.image-list p:first-child {
-  font-weight: bold;
-  font-size: 1.15rem;
-}
+
 
 .image-list p:last-child {
   margin-top: 0.5rem;
@@ -511,7 +508,9 @@ body {
 .grid-view {
   display: grid;
   grid-gap: 2rem;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 800px));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 700px));
+  align-content: space-between;
+  justify-content: space-around;
 }
 
 
@@ -567,8 +566,8 @@ th, td {
 
 
 table {
-/*   position: absolute;
-  bottom: 0px; */
+  //position: absolute;
+  //bottom: 0px;
   width: 100%;
   table-layout: auto;
 }
